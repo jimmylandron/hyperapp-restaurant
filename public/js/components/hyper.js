@@ -141,69 +141,71 @@ function App(_ref) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-
 var companyInfo = {
-  title1: 'PRIME STEAK ',
-  title2: 'RESTAURANT',
-  phone: '(415) - 219 - 8753',
-  location: 'San Francisco, California'
+  title1: "PRIME STEAK ",
+  title2: "RESTAURANT",
+  phone: "(415) - 219 - 8753",
+  location: "San Francisco, California"
 };
 
 var specialMenuData = [{
-  title: 'Supper BBQ Gril No Smoke',
-  description: 'Fried Egss, Steak, Baked Potato or French Fries, side of vegetables',
-  price: '35'
+  image: "../../img/1.jpg",
+  title: "Supper BBQ Gril No Smoke",
+  description: "Fried Egss, Steak, Baked Potato or French Fries, side of vegetables",
+  price: "35"
 }, {
-  title: 'Supper BBQ Gril No Smoke',
-  description: 'Fried Egss, Steak, Baked Potato or French Fries, side of vegetables',
-  price: '20'
+  image: "../../img/2.jpg",
+  title: "Tenderloin  Tartar",
+  description: "Potato & Leek Tart Roasted Root Vegetables with Rosemary Butter",
+  price: "20"
 }, {
-  title: 'Supper BBQ Gril No Smoke',
-  description: 'Fried Egss, Steak, Baked Potato or French Fries, side of vegetables',
-  price: '27'
+  image: "../../img/3.jpeg",
+  title: "Ribs and Chicken Diner",
+  description: "Veuve Clicquot Yellow Label, Belvedere Vodka, Lemon, side of fries",
+  price: "27"
 }];
 
 var reviewsData = [{
-  company: 'The Food Network',
-  author: 'Joe Burgermaster',
-  authorInfo: 'Winner Master Chef 2011',
-  highlight: 'the best restaurant that i used to experience',
-  review: 'Bacon ipsum dolor amet fatback kevin turducken hamburger pig pork loin tongue sausage ribeye brisket. Bresaola kielbasa spare ribs ball tip, shoulder ribeye landjaeger pig. Turducken frankfurter cupim, pork beef jerky short loin spare ribs pastrami capicola salami strip steak.'
+  company: "The Food Network",
+  author: "Joe Burgermaster",
+  authorInfo: "Winner Master Chef 2011",
+  highlight: "the best restaurant that i used to experience",
+  review: "Bacon ipsum dolor amet fatback kevin turducken hamburger pig pork loin tongue sausage ribeye brisket. Bresaola kielbasa spare ribs ball tip, shoulder ribeye landjaeger pig. Turducken frankfurter cupim, pork beef jerky short loin spare ribs pastrami capicola salami strip steak."
 }, {
-  company: 'HBO',
-  author: 'Joe Burgermaster',
-  authorInfo: 'Winner Master Chef 2011',
-  highlight: 'the best restaurant that i used to experience',
-  review: 'Bacon ipsum dolor amet fatback kevin turducken hamburger pig pork loin tongue sausage ribeye brisket. Bresaola kielbasa spare ribs ball tip, shoulder ribeye landjaeger pig. Turducken frankfurter cupim, pork beef jerky short loin spare ribs pastrami capicola salami strip steak.'
+  company: "HBO",
+  author: "Joe Burgermaster",
+  authorInfo: "Winner Master Chef 2011",
+  highlight: "the best restaurant that i used to experience",
+  review: "Bacon ipsum dolor amet fatback kevin turducken hamburger pig pork loin tongue sausage ribeye brisket. Bresaola kielbasa spare ribs ball tip, shoulder ribeye landjaeger pig. Turducken frankfurter cupim, pork beef jerky short loin spare ribs pastrami capicola salami strip steak."
 }, {
-  company: 'CWB',
-  author: 'Joe Burgermaster',
-  authorInfo: 'Winner Master Chef 2011',
-  highlight: 'the best restaurant that i used to experience',
-  review: 'Bacon ipsum dolor amet fatback kevin turducken hamburger pig pork loin tongue sausage ribeye brisket. Bresaola kielbasa spare ribs ball tip, shoulder ribeye landjaeger pig. Turducken frankfurter cupim, pork beef jerky short loin spare ribs pastrami capicola salami strip steak.'
+  company: "CWB",
+  author: "Joe Burgermaster",
+  authorInfo: "Winner Master Chef 2011",
+  highlight: "the best restaurant that i used to experience",
+  review: "Bacon ipsum dolor amet fatback kevin turducken hamburger pig pork loin tongue sausage ribeye brisket. Bresaola kielbasa spare ribs ball tip, shoulder ribeye landjaeger pig. Turducken frankfurter cupim, pork beef jerky short loin spare ribs pastrami capicola salami strip steak."
 }, {
-  company: 'NBC',
-  author: 'Joe Burgermaster',
-  authorInfo: 'Winner Master Chef 2011',
-  highlight: 'the best restaurant that i used to experience',
-  review: 'Bacon ipsum dolor amet fatback kevin turducken hamburger pig pork loin tongue sausage ribeye brisket. Bresaola kielbasa spare ribs ball tip, shoulder ribeye landjaeger pig. Turducken frankfurter cupim, pork beef jerky short loin spare ribs pastrami capicola salami strip steak.'
+  company: "NBC",
+  author: "Joe Burgermaster",
+  authorInfo: "Winner Master Chef 2011",
+  highlight: "the best restaurant that i used to experience",
+  review: "Bacon ipsum dolor amet fatback kevin turducken hamburger pig pork loin tongue sausage ribeye brisket. Bresaola kielbasa spare ribs ball tip, shoulder ribeye landjaeger pig. Turducken frankfurter cupim, pork beef jerky short loin spare ribs pastrami capicola salami strip steak."
 }, {
-  company: 'The New York Times',
-  author: 'Joe Burgermaster',
-  authorInfo: 'Winner Master Chef 2011',
-  highlight: 'the best restaurant that i used to experience',
-  review: 'Bacon ipsum dolor amet fatback kevin turducken hamburger pig pork loin tongue sausage ribeye brisket. Bresaola kielbasa spare ribs ball tip, shoulder ribeye landjaeger pig. Turducken frankfurter cupim, pork beef jerky short loin spare ribs pastrami capicola salami strip steak.'
+  company: "The New York Times",
+  author: "Joe Burgermaster",
+  authorInfo: "Winner Master Chef 2011",
+  highlight: "the best restaurant that i used to experience",
+  review: "Bacon ipsum dolor amet fatback kevin turducken hamburger pig pork loin tongue sausage ribeye brisket. Bresaola kielbasa spare ribs ball tip, shoulder ribeye landjaeger pig. Turducken frankfurter cupim, pork beef jerky short loin spare ribs pastrami capicola salami strip steak."
 }];
 
 var randomQuoteData = [{
-  author: 'John',
-  quote: 'Good Painting Is Like Good Cooking; It Can Be Tasted, But Not Explained'
+  author: "John",
+  quote: "Good Painting Is Like Good Cooking; It Can Be Tasted, But Not Explained"
 }, {
-  author: 'Dave',
-  quote: 'Hart warm comfort food'
+  author: "Dave",
+  quote: "Hart warm comfort food"
 }, {
-  author: 'Judy',
-  quote: 'Just like moma used to make'
+  author: "Judy",
+  quote: "Just like moma used to make"
 }];
 
 var globalState = exports.globalState = {
@@ -594,23 +596,25 @@ function RandomQuote(_ref) {
       actions = _ref.actions;
 
   return (0, _hyperapp.h)(
-    'section',
-    { id: 'RandomQuote', style: {
-        backgroundImage: 'linear-gradient(135deg,rgba(0,0,0,.2) 0,#000 100%),url("http://www.colonelsretreat.com/system/special_slider/cooking.png")'
-
-      } },
+    "section",
+    {
+      id: "RandomQuote",
+      style: {
+        backgroundImage: 'linear-gradient(135deg,rgba(0,0,0,.2) 0,#000 100%),url("../../img/cooking.png")'
+      }
+    },
     (0, _hyperapp.h)(
-      'div',
-      { 'class': 'container' },
+      "div",
+      { "class": "container" },
       (0, _hyperapp.h)(
-        'h1',
+        "h1",
         null,
-        '"good painting is like good cooking; it can be tasted, but not explained"'
+        "\"good painting is like good cooking; it can be tasted, but not explained\""
       ),
       (0, _hyperapp.h)(
-        'span',
-        { 'class': 'author' },
-        '- John -'
+        "span",
+        { "class": "author" },
+        "- John -"
       )
     )
   );
@@ -635,7 +639,6 @@ var _hyperapp = __webpack_require__(0);
 function Reviews(_ref) {
   var state = _ref.state,
       actions = _ref.actions;
-
 
   console.log(state.reviewsData[state.reviewStatus.currentReview].company);
   console.log(state.reviewsData.length);
@@ -673,7 +676,9 @@ function Reviews(_ref) {
           null,
           state.reviewsData[state.reviewStatus.currentReview].author
         ),
-        " - ",
+        " ",
+        "-",
+        " ",
         (0, _hyperapp.h)(
           "em",
           null,
@@ -685,7 +690,7 @@ function Reviews(_ref) {
 
   var rightClickedBTN = function rightClickedBTN() {
     if (state.reviewStatus.currentReview == state.reviewsData.length - 1) {
-      console.log('Stop Moving!');
+      console.log("Stop Moving!");
     } else {
       actions.reviewRightClicked();
     }
@@ -693,7 +698,7 @@ function Reviews(_ref) {
 
   var leftClickedBTN = function leftClickedBTN() {
     if (state.reviewStatus.currentReview == 0) {
-      console.log('I am ready!');
+      console.log("I am ready!");
     } else {
       actions.reviewLeftClicked();
     }
@@ -711,7 +716,7 @@ function Reviews(_ref) {
         (0, _hyperapp.h)(
           "div",
           { "class": "col-md-8", "side-img": true },
-          (0, _hyperapp.h)("img", { src: "https://s-i.huffpost.com/gen/1282658/images/o-FEMALE-CHEF-facebook.jpg", alt: "" })
+          (0, _hyperapp.h)("img", { src: "../../img/o-FEMALE-CHEF-facebook.jpg", alt: "" })
         ),
         (0, _hyperapp.h)(
           "div",
@@ -720,8 +725,16 @@ function Reviews(_ref) {
           (0, _hyperapp.h)(
             "div",
             { "class": "arrows" },
-            (0, _hyperapp.h)("i", { onclick: leftClickedBTN, "class": "fa fa-arrow-left " + (state.reviewStatus.currentReview > 0 ? 'ready' : '') + " ", "aria-hidden": "true" }),
-            (0, _hyperapp.h)("i", { onclick: rightClickedBTN, "class": "fa fa-arrow-right " + (state.reviewStatus.currentReview == state.reviewsData.length - 1 ? '' : ' ready') + " ", "aria-hidden": "true" })
+            (0, _hyperapp.h)("i", {
+              onclick: leftClickedBTN,
+              "class": "fa fa-arrow-left " + (state.reviewStatus.currentReview > 0 ? "ready" : "") + " ",
+              "aria-hidden": "true"
+            }),
+            (0, _hyperapp.h)("i", {
+              onclick: rightClickedBTN,
+              "class": "fa fa-arrow-right " + (state.reviewStatus.currentReview == state.reviewsData.length - 1 ? "" : " ready") + " ",
+              "aria-hidden": "true"
+            })
           )
         )
       )
@@ -749,7 +762,6 @@ function SpecialMenu(_ref) {
   var state = _ref.state,
       actions = _ref.actions;
 
-
   var loopMenu = function loopMenu() {
     return state.specialMenuData.map(function (item) {
       //console.log(item.title)
@@ -761,7 +773,12 @@ function SpecialMenu(_ref) {
           { "class": "box" },
           (0, _hyperapp.h)(
             "div",
-            { "class": "box-img" },
+            {
+              "class": "box-img",
+              style: {
+                background: "linear-gradient(135deg, rgba(0,0,0,0.002) 0, #000 160%), url(\"" + item.image + "\") no-repeat center center"
+              }
+            },
             (0, _hyperapp.h)(
               "div",
               { "class": "price-circle" },
