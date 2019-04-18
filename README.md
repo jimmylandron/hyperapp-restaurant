@@ -26,7 +26,7 @@ npm run build
 
 ## Built With
 
-* [React js](https://hyperapp.js.org/)
+* [Hyperapp js](https://hyperapp.js.org/)
 * [Webpack](https://webpack.js.org/)
 
 ## Author
